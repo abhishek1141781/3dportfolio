@@ -50,3 +50,8 @@
       | ^
   176 |
 ```
+
+use emailjs to send email
+npm i @emailjs/browser
+
+# using custom hooks
