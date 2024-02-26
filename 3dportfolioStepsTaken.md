@@ -55,3 +55,6 @@ use emailjs to send email
 npm i @emailjs/browser
 
 # using custom hooks
+
+# using react-vertical-timeline-component
+   npm i react-vertical-timeline-component
