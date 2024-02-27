@@ -32,7 +32,7 @@ const Projects = () => {
                 <img
                   src={project.iconUrl}
                   alt="threads"
-                  className="w-1/2 h-1/2 object-contain"
+                  className="w-10/12 object-contain"
                 />
               </div>
             </div>
@@ -42,20 +42,39 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className="mt-2 text-slate-500">{project.description}</p>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
-                <Link
-                  to={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
-                >
-                  Live Link
-                </Link>
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="w-4 h-4 object-contain"
-                />
+              <div className="mt-3 flex flex-col items-center gap-2 font-poppins">
+                <div className="flex flex-row justify-center items-center gap-2">
+                  <Link
+                    to={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue-600"
+                  >
+                    Github Link
+                  </Link>
+                  <img
+                    src={arrow}
+                    alt="arrow"
+                    className="w-4 h-4 object-contain"
+                  />
+                </div>
+                {project.hostedLink && (
+                  <div className="flex flex-row justify-center items-center gap-2">
+                    <Link
+                      to={project.hostedLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-blue-600"
+                    >
+                      Live Link
+                    </Link>
+                    <img
+                      src={arrow}
+                      alt="arrow"
+                      className="w-4 h-4 object-contain"
+                    />
+                  </div>
+                )}
               </div>
             </div>
           </div>
