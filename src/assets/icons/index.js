@@ -33,6 +33,8 @@ import mysql from "./mysql.svg";
 import linux from "./linux.svg";
 import nestjs from "./nestjs.svg";
 import oauth from "./oauth.svg";
+import three from "./three.svg";
+
 
 import thal from "./thal.png";
 
@@ -72,4 +74,5 @@ export {
   nestjs,
   oauth,
   thal,
+  three
 };

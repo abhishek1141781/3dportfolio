@@ -24,6 +24,7 @@ import {
   mysql,
   oauth,
   linux,
+  three
 } from "../assets/icons";
 
 export const skills = [
@@ -188,5 +189,13 @@ export const projects = [
     description: "Developed a basic NestJs CRUD with JWT",
     githubLink: "https://github.com/abhishek1141781/ae-php-final",
     hostedLink: "",
+  },
+  {
+    iconUrl: three,
+    theme: "btn-back-red",
+    name: "3D Portfolio with ThreeJs",
+    description: "Developed a 3d interactive portfolio using ThreeJS",
+    githubLink: "https://github.com/abhishek1141781/3dportfolio",
+    hostedLink: "https://threedportfolio-qmm9.onrender.com/",
   },
 ];
