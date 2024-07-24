@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, ci } from "../assets/images";
+import { meta, shopify, starbucks, tesla, ci, rx, rxHalfSnip, rxZoom, rvlx, rvlxSnip, rvlxZoom, rxZoomTransp } from "../assets/images";
 import {
   car,
   contact,
@@ -134,6 +134,21 @@ export const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "SDE Backend Trainee",
+    company_name: "Revolux Solutions",
+    // icon: rxZoom,
+    icon: rxZoomTransp,
+    // iconBg: "#0de470",
+    iconBg: "#DAF9F9",
+    date: "April 2024 - May 2024",
+    points: [
+      "Devloped PoCs for live projects to be later used in them with required modifications",
+      "An ImageOptimizer project using a npm package 'smartcropjs' for auto image cropping in multiple sizes along with other image formatting like multiple sizes output based on user input, output of image based on custom user crop, etc",
+      "Developed Loyalty Point Program APIs that takes care of the whole loyalty program system",
+    ],
+  },
+
 ];
 
 export const socialLinks = [
